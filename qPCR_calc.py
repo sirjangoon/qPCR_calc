@@ -42,18 +42,24 @@ def openExcel(excel_workbook, control_target):
     sheet_obj = wb_obj['Results']
     control_target_exist = False
 
-    if sheet_obj['D43'].value != 'Sample Name':
-        print('Results worksheet does not match expected layout. Exiting')
-        return 
 
-    for row_obj_tup in sheet_obj.iter_rows(min_row = 44,  min_col=4, max_col=15):
+    start_process = False
+    for row_obj_tup in sheet_obj.iter_rows(min_row = 40,  min_col=4, max_col=15):
         target = row_obj_tup[1].value
         sample = row_obj_tup[0].value
         ct = row_obj_tup[11].value
 
+        # skip until we find Sample Name
+        if (not start_process) and sample != 'Sample Name':
+            continue
+        elif sample == 'Sample Name':
+            start_process = True
+            print('The first row of data begins on ' + str(row_obj_tup[0].row+1))
+            continue
+
         # stop if we reach line with no values
-        if target is None:
-            print('The last row is ' + str(row_obj_tup[0].row - 1) +'.')
+        if (start_process) and (target is None):
+            print('The last row data ends on ' + str(row_obj_tup[0].row - 1) +'.')
             break
 
         # control_target case insensitive
@@ -136,7 +142,7 @@ def main():
         print('Usage: python3 qPCR_calc.py FILENAME [gapdh]')
         print()
         print('Example: python3 qPCR_calc.py test_file.xlsx')
-        print('Example: python3 qPCR_calc.py test_file. xlsx GaPdH')
+        print('Example: python3 qPCR_calc.py test_file.xlsx GaPdH')
     except openpyxl.utils.exceptions.InvalidFileException:
         print('Only xlsx files are supported.')
 
