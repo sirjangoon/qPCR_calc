@@ -1,0 +1,91 @@
+Sample Name	Target Name	CT
+293T-24h	vcan ex 3/4-1	20.032
+293T-24h	vcan ex 3/4-1	19.988
+293T-24h	vcan ex 3/4-1	20.095
+293T-48h	vcan ex 3/4-1	19.816
+293T-48h	vcan ex 3/4-1	19.871
+293T-48h	vcan ex 3/4-1	18.636
+293T-72h	vcan ex 3/4-1	20.330
+293T-72h	vcan ex 3/4-1	19.900
+293T-72h	vcan ex 3/4-1	20.116
+HUVEC-48h	vcan ex 3/4-1	24.317
+HUVEC-48h	vcan ex 3/4-1	24.334
+HUVEC-48h	vcan ex 3/4-1	24.347
+HUVEC-72h	vcan ex 3/4-1	24.343
+HUVEC-72h	vcan ex 3/4-1	24.392
+HUVEC-72h	vcan ex 3/4-1	24.215
+Huvec-24h	vcan ex 3/4-1	23.144
+Huvec-24h	vcan ex 3/4-1	22.918
+Huvec-24h	vcan ex 3/4-1	23.152
+293T-24h	vcan ex 3/4-2	18.652
+293T-24h	vcan ex 3/4-2	18.460
+293T-24h	vcan ex 3/4-2	18.628
+293T-48h	vcan ex 3/4-2	18.301
+293T-48h	vcan ex 3/4-2	17.354
+293T-48h	vcan ex 3/4-2	18.190
+293T-72h	vcan ex 3/4-2	18.457
+293T-72h	vcan ex 3/4-2	17.679
+293T-72h	vcan ex 3/4-2	18.328
+HUVEC-48h	vcan ex 3/4-2	20.613
+HUVEC-48h	vcan ex 3/4-2	20.520
+HUVEC-48h	vcan ex 3/4-2	20.508
+HUVEC-72h	vcan ex 3/4-2	20.532
+HUVEC-72h	vcan ex 3/4-2	20.763
+HUVEC-72h	vcan ex 3/4-2	20.746
+Huvec-24h	vcan ex 3/4-2	20.329
+Huvec-24h	vcan ex 3/4-2	20.210
+Huvec-24h	vcan ex 3/4-2	20.248
+293T-24h	vcan ex 8-1	19.975
+293T-24h	vcan ex 8-1	20.014
+293T-24h	vcan ex 8-1	20.172
+293T-48h	vcan ex 8-1	19.608
+293T-48h	vcan ex 8-1	19.983
+293T-48h	vcan ex 8-1	20.419
+293T-72h	vcan ex 8-1	19.718
+293T-72h	vcan ex 8-1	19.341
+293T-72h	vcan ex 8-1	19.075
+HUVEC-48h	vcan ex 8-1	26.567
+HUVEC-48h	vcan ex 8-1	26.588
+HUVEC-48h	vcan ex 8-1	26.359
+HUVEC-72h	vcan ex 8-1	26.958
+HUVEC-72h	vcan ex 8-1	28.187
+HUVEC-72h	vcan ex 8-1	27.012
+Huvec-24h	vcan ex 8-1	23.203
+Huvec-24h	vcan ex 8-1	23.790
+Huvec-24h	vcan ex 8-1	23.987
+293T-24h	vcan ex8-2	19.891
+293T-24h	vcan ex8-2	19.602
+293T-24h	vcan ex8-2	19.937
+293T-48h	vcan ex8-2	19.652
+293T-48h	vcan ex8-2	19.830
+293T-48h	vcan ex8-2	19.585
+293T-72h	vcan ex8-2	19.776
+293T-72h	vcan ex8-2	19.410
+293T-72h	vcan ex8-2	20.157
+HUVEC-48h	vcan ex8-2	25.866
+HUVEC-48h	vcan ex8-2	24.867
+HUVEC-48h	vcan ex8-2	25.558
+HUVEC-72h	vcan ex8-2	25.976
+HUVEC-72h	vcan ex8-2	25.947
+HUVEC-72h	vcan ex8-2	25.866
+Huvec-24h	vcan ex8-2	22.920
+Huvec-24h	vcan ex8-2	23.024
+Huvec-24h	vcan ex8-2	23.321
+293T-24h	gapdh	12.375
+293T-24h	gapdh	12.662
+293T-24h	gapdh	13.269
+293T-48h	gapdh	12.740
+293T-48h	gapdh	13.410
+293T-48h	gapdh	13.268
+293T-72h	gapdh	13.229
+293T-72h	gapdh	13.021
+293T-72h	gapdh	13.201
+HUVEC-48h	gapdh	13.678
+HUVEC-48h	gapdh	12.695
+HUVEC-48h	gapdh	12.308
+HUVEC-72h	gapdh	13.995
+HUVEC-72h	gapdh	13.698
+HUVEC-72h	gapdh	13.040
+Huvec-24h	gapdh	13.801
+Huvec-24h	gapdh	14.442
+Huvec-24h	gapdh	14.190
