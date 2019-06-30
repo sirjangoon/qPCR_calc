@@ -19,6 +19,7 @@ todo:
 import csv
 import openpyxl
 import sys
+import pyexcel
 
 class SampleClass:
     def __init__(self, CT):
@@ -121,7 +122,16 @@ def main():
             control_target = sys.argv[2].upper() #eg, GAPDH, gapdh
         except:
             control_target = "GAPDH"
-        openExcel(file_location, control_target)
+
+        # convert xls to xlsx
+        if file_location.endswith('.xls'):
+            temp_file = file_location + 'x'
+            pyexcel.save_book_as(file_name = file_location, dest_file_name = temp_file)
+            filename = temp_file
+        else:
+            filename = file_location
+
+        openExcel(filename, control_target)
     except IndexError:
         print('Usage: python3 qPCR_calc.py FILENAME [gapdh]')
         print()
