@@ -2,3 +2,5 @@ __pycache__/
 .vscode/
 sample1.xls
 sample2.xlsx
+*.xls
+*.xlsx
